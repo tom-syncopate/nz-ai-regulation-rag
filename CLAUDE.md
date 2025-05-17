@@ -45,10 +45,23 @@ This is an AI Regulation RAG (Retrieval-Augmented Generation) demo application f
    - Email capture with captcha
    - Supabase for storing emails
 
+## Development Environment (macOS)
+
+```bash
+# Create a virtual environment
+python -m venv nzairegenv
+
+# Activate the virtual environment
+source nzairegenv/bin/activate
+
+# Deactivate the virtual environment when done
+deactivate
+```
+
 ## Common Commands
 
 ```bash
-# Install dependencies
+# Install dependencies (with virtual environment activated)
 pip install -r requirements.txt
 
 # Run the Streamlit application locally
